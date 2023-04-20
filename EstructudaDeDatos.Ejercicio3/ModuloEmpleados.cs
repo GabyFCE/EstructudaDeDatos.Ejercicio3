@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EstructudaDeDatos.Ejercicio3
 {
-    internal class ModuloEmpleados
+    internal static class ModuloEmpleados
     {
         internal static void Alta()
         {
