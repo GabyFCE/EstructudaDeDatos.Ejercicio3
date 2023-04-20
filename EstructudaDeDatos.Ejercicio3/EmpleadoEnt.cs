@@ -45,18 +45,18 @@ namespace EstructudaDeDatos.Ejercicio3
             }
             if(Antiguedad >= 65)
             {
-                error = "La antiguedad es mayor o igual a 65 años";
+                error = error + "\n" + "La antiguedad es mayor o igual a 65 años";
                 return false;
             }
          
             if (FechaEgreso != null && FechaEgreso > DateTime.Now)
             {
-                error = "La fecha de egreso es superior a la fecha actual";
+                error = error + "\n" + "La fecha de egreso es superior a la fecha actual";
                 return false;
             }
             if (FechaEgreso != null && FechaEgreso < FechaIngreso)
             {
-                error = "La fecha de egreso es inferior a la fecha de ingreso";
+                error = error + "\n" + "La fecha de egreso es inferior a la fecha de ingreso";
                 return false;
             }
 
